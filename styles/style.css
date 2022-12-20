@@ -78,6 +78,10 @@ button a{
     color: #fff;
 }
 
+.textoCentral{
+    margin :8%;
+}
+
 .none{
     display:none;
 }

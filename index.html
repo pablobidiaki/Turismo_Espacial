@@ -10,24 +10,34 @@
 </head>
 <body>
     <header>
-        <ul>
-            <li><img src="imgs/home/logo.svg" alt=""></li>
-            <li><img  src="imgs/home/icon-hamburger.svg" alt="" onclick="burguer()"></li>
-            <li ><img src="imgs/home/icon-close.svg" alt=""></li>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Destino</a></li>
-                    <li><a href="">Tripulação</a></li>
-                    <li><a href="">Tecnologia</a></li>
-                </ul>
-            </ul>
+        <div class="container">
+
+            <div class="nav-bar">
+                <img src="imgs/home/logo.svg" alt="">
+                <div class="hamburger">
+                    <div class="line" id="line1"></div>
+                    <div class="line" id="line2"></div>
+                    <div class="line" id="line3"></div>
+                </div>
+            </div>
+            
+            <aside class="sidebar">
+                <nav>
+                    <ul class="menu">
+                        <li class="menu-item"><a href="index.html" class="menu-link">Home</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Destino</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Tripulação</a></li>
+                        <li class="menu-item"><a href="#" class="menu-link">Tecnologia</a></li>
+                    </ul>
+                </nav>
+            </aside>
+        </div>
     </header>
 
     <p>Então você quer ir ao</p>
     <h1>Espaço</h1>
     <p>Vamos encarar; se você quer ir para o espaço, pode muito bem ir genuinamente para o espaço sideral e não pairar no limite dele. Bem, sente-se e relaxe porque vamos dar-lhe uma experiência verdadeiramente fora deste mundo! </p>
     <p><button><a href="#">Explorar</a></button></p>
-
 
     <script src="script.js"></script>
 </body>

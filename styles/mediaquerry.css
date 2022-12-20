@@ -42,7 +42,25 @@
         background-size: cover;
     }
 
+    #nav-bar{
+        margin-top:3%;
+        margin-right: 0px;
+    }
+
+    #burguer{
+        display: none;
+    }
+
     .opcoesRespon{
         display: flex;
+        flex-direction: end;
+        color:white;
+        list-style-type: none;
+        backdrop-filter: blur(55px);
+    }
+
+    .opcoesRespon li{
+        margin: 20px;
+        margin-right: 100px;
     }
 }

@@ -1,0 +1,94 @@
+@media screen and (min-width:641px) and (max-width:1000px){
+    body{
+        background: url('../imgs/background-destination-tablet.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    p{
+        margin:25px;
+        font-size: 1.2rem;
+    }
+
+    #burguer{
+        display:none;
+    }
+
+    .opcoesRespon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color:white;
+        list-style-type: none;
+        border: 1px solid white;
+        backdrop-filter: blur(95px);
+    }
+
+    .opcoesRespon li{
+        margin: 20px;
+    }
+
+    .infoPlaneta{
+        margin: 15px 20%;
+    }
+
+    .destinos hr{
+        margin: 0px 5%;
+    }
+}
+
+@media  screen and (min-width:1001px) {
+    body{
+        background: url('../imgs/background-destination-desktop.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    #nav-bar{
+        margin-top:1%;
+        margin-right: 0px;
+    }
+
+    #burguer{
+        display: none;
+    }
+
+    .opcoesRespon{
+        display: flex;
+        flex-direction: end;
+        color:white;
+        list-style-type: none;
+        background-color: rgba(66, 66, 66, 0.623);
+    }
+
+    .opcoesRespon li a {
+        text-transform: uppercase;
+    }
+
+    .opcoesRespon li{
+        margin: 20px;
+        margin-right: 100px;
+    }
+
+    .destinos{
+        columns: 2;
+        margin-top: 5%;
+    }
+
+    .destinos p{
+        margin:20px;
+    }
+
+    .destinos p img{
+        width: 70%;
+        height: 70%;
+    }
+
+    .distancia{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

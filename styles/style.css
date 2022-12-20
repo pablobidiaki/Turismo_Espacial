@@ -59,6 +59,10 @@ button a{
     margin: 20px;
 }
 
+.opcoesRespon{
+    display: none;
+}
+
 #opcoes{
     background-color: #0b0d176b;
     width: 100vw;

@@ -1,0 +1,48 @@
+@media screen and (min-width:641px) and (max-width:1000px){
+    body{
+        background: url('../imgs/backgrounds/background-home-tablet.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    p{
+        margin:25px;
+        font-size: 1.2rem;
+    }
+
+    #burguer{
+        display:none;
+    }
+
+    .opcoesRespon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color:white;
+        list-style-type: none;
+        border: 1px solid white;
+        backdrop-filter: blur(95px);
+    }
+
+    .opcoesRespon li{
+        margin: 20px;
+    }
+
+    .textoCentral{
+        margin: 15px 20%;
+    }
+}
+
+@media  screen and (min-width:1001px) {
+    body{
+        background: url('../imgs/backgrounds/background-home-desktop.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .opcoesRespon{
+        display: flex;
+    }
+}

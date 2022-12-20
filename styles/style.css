@@ -5,6 +5,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Arsenal', sans-serif;
+    color: #fff;
+    text-decoration: none;
 }
 
 body{
@@ -49,6 +51,9 @@ button a{
     text-align: center;
     font-size: larger;
     text-transform: uppercase;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 #nav-bar{

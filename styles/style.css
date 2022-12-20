@@ -50,3 +50,30 @@ button a{
     font-size: larger;
     text-transform: uppercase;
 }
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+#opcoes{
+    background-color: #0b0d176b;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#opcoes ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgb(85, 85, 85);
+    margin: 0px 30px;
+    list-style-type: none;
+    color: #fff;
+}
+
+.none{
+    display:none;
+}

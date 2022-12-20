@@ -5,11 +5,9 @@ function menuBurguer(){
         document.getElementById('opcoes').classList.remove('none')
         document.getElementById('fechar').classList.remove('none')
         document.getElementById('burguer').classList.add('none')
-        document.getElementById('img').classList.add('none')
     }else{
         document.getElementById('opcoes').classList.add('none')
         document.getElementById('burguer').classList.remove('none')
         document.getElementById('fechar').classList.add('none')
-        document.getElementById('img').classList.remove('none')
     }
 }

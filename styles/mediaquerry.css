@@ -63,4 +63,23 @@
         margin: 20px;
         margin-right: 100px;
     }
+
+    .teste{
+        margin: 8% 0px;
+    }
+
+    .teste p, .teste .textoCentral, h1 {
+        text-align: center;
+        margin: 10px 10%;
+        width: 25%;
+        height: 50%;
+    }
+
+    p button{
+        position: absolute;
+        top: 45%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
 }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaquery.css">
+    <title>Destinos</title>
+</head>
+<body>
+    <header>
+        <div id="nav-bar">
+            <img src="../imgs/home/logo.svg" alt="">
+            <img id="burguer" src="../imgs/home/icon-hamburger.svg" onclick="menuBurguer()" alt="">
+            <img id="fechar" class="none" src="../imgs/home/icon-close.svg" onclick="menuBurguer()" alt="">
+
+            <ul class="opcoesRespon">
+                <li>Home</li>
+                <li>Destino</li>
+                <li>Tripulação</li>
+                <li>Tecnologia</li>
+            </ul>
+        </div>
+        <div id="opcoes" class="none">
+            <ul>
+                <li>Home</li>
+                <li>Destino</li>
+                <li>Tripulação</li>
+                <li>Tecnologia</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div id="lua" class="destinos">
+            <p>Foto do seu destino !</p>
+            <p><img src="imgs/image-moon.png" alt=""></p>
+            <ul>
+                <li onclick="ClickLua()">Lua</li>
+                <li onclick="ClickMarte()">Marte</li>
+                <li onclick="ClickEuropa()">Europa</li>
+                <li onclick="ClickTita()">Titã</li>
+            </ul>
+            <h1>Lua</h1>
+            <p>Veja nosso planeta como você nunca viu antes. Uma viagem relaxante perfeita para ajudar a recuperar a perspectiva e voltar revigorado. Enquanto estiver lá, conheça um pouco da história visitando os locais de pouso da Luna 2 e da Apollo 11.</p>
+            <hr>
+            <p>Distancia média</p>
+            <h2>384,400 km</h2>
+            <h2>3 dias</h2>
+        </div>
+
+        <div id="marte" class="none destinos">
+            <p>Foto do seu destino !</p>
+            <p><img src="imgs/image-mars.png" alt=""></p>
+            <ul>
+                <li onclick="ClickLua()">Lua</li>
+                <li onclick="ClickMarte()">Marte</li>
+                <li onclick="ClickEuropa()">Europa</li>
+                <li onclick="ClickTita()">Titã</li>
+            </ul>
+            <h1>Marte</h1>
+            <p>Não se esqueça de levar suas botas de caminhada. Você precisará deles para enfrentar o Olympus Mons, a montanha planetária mais alta do nosso sistema solar. É duas vezes e meia o tamanho do Everest!</p>
+            <hr>
+            <p>Distancia média</p>
+            <h2>225 mil km</h2>
+            <h2>9 meses</h2>
+        </div>
+
+        <div id="europa" class="none destinos">
+            <p>Foto do seu destino !</p>
+            <p><img src="imgs/image-europa.png" alt=""></p>
+            <ul>
+                <li onclick="ClickLua()">Lua</li>
+                <li onclick="ClickMarte()">Marte</li>
+                <li onclick="ClickEuropa()">Europa</li>
+                <li onclick="ClickTita()">Titã</li>
+            </ul>
+            <h1>Europa</h1>
+            <p>A menor das quatro luas galileanas que orbitam Júpiter, Europa é o sonho de um amante do inverno. Com uma superfície gelada, é perfeito para patinar no gelo, curling, hóquei ou simplesmente relaxar em sua confortável cabana de inverno.</p>
+            <hr>
+            <p>Distancia média</p>
+            <h2>628 mil km.</h2>
+            <h2>3 anos.</h2>
+        </div>
+
+        <div id="tita" class="none destinos">
+            <p>Foto do seu destino !</p>
+            <p><img src="imgs/image-titan.png" alt=""></p>
+            <ul>
+                <li onclick="ClickLua()">Lua</li>
+                <li onclick="ClickMarte()">Marte</li>
+                <li onclick="ClickEuropa()">Europa</li>
+                <li onclick="ClickTita()">Titã</li>
+            </ul>
+            <h1>Titã</h1>
+            <p>A única lua conhecida por ter uma atmosfera densa além da Terra, Titã é um lar longe de casa (apenas algumas centenas de graus mais frio!). Como bônus, você obtém vistas impressionantes dos Anéis de Saturno.</p>
+            <hr>
+            <p>Distancia média</p>
+            <h2>1.6 bil km</h2>
+            <h2>7 anos</h2>
+        </div>
+    </main>
+
+    <script src="menuBurguer.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

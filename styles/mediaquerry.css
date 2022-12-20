@@ -64,11 +64,11 @@
         margin-right: 100px;
     }
 
-    .teste{
+    .infoFinais{
         margin: 8% 0px;
     }
 
-    .teste p, .teste .textoCentral, h1 {
+    .infoFinais p, .infoFinais .textoCentral, h1 {
         text-align: center;
         margin: 10px 10%;
         width: 25%;

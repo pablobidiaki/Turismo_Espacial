@@ -9,6 +9,7 @@
 
 body{
     background-image: url(../imgs/backgrounds/background-home-mobile.jpg);
+    overflow-x: hidden;
 }
 
 ul{
@@ -55,4 +56,3 @@ button a{
     font-size: larger;
     text-transform: uppercase;
 }
-

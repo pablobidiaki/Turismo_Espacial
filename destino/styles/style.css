@@ -72,6 +72,7 @@ a{
 .destinos ul li{
     list-style-type:none;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .destinos h1{
@@ -100,6 +101,10 @@ a{
 
 .destinos .titulo{
     font-size: 1.2rem;
+}
+
+.grifado{
+    border-bottom: 2px solid white;
 }
 
 .none{

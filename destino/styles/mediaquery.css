@@ -36,6 +36,10 @@
     .destinos hr{
         margin: 0px 5%;
     }
+
+    .destinos .titulo{
+        font-size: 1.2rem;
+    }
 }
 
 @media  screen and (min-width:1001px) {

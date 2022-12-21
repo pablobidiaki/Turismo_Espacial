@@ -84,6 +84,10 @@ a{
     margin: 20px 8%;
 }
 
+.destinos h1{
+    margin-top: 40px;
+}
+
 .destinos hr{
     margin: 5px 40px;
 }
@@ -92,6 +96,10 @@ a{
     text-align: center;
     text-transform: uppercase;
     margin: 20px;
+}
+
+.destinos .titulo{
+    font-size: 1.2rem;
 }
 
 .none{

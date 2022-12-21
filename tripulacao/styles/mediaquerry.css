@@ -55,10 +55,11 @@
         background-size: cover;
         height: 97%;
         width: 100%;
+        overflow-y: hidden;
     }
 
     main{
-        margin-top: 3%;
+        margin-top: 5%;
     }
 
     #nav-bar{
@@ -95,13 +96,13 @@
 
     .tripulacao{
         columns: 2;
-
     }
 
     .tripulacao .nome, .tripulacao .cargo, .tripulacao .descricao{
         text-align: justify;
         margin: 20px;
     }
+
 
     .tripulacao p img{
         width: 50%;

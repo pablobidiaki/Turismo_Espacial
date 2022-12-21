@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Arsenal', sans-serif;
+}
+
+body{
+    background-image: url('../imgs/background-crew-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.opcoesRespon{
+    display: none;
+}
+
+#opcoes{
+    background-color: #0b0d1709;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#opcoes ul li{
+    padding: 15px;
+    border-bottom: 1px solid rgb(116, 116, 116);
+    margin: 0px 30px;
+    list-style-type: none;
+    color: #fff;
+}
+
+.tripulacao p{
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.tripulacao p img{
+    width: 75%;
+    height: 75%;
+}
+
+.opcoesTripula{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.opcoesTripula p{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: rgb(77, 77, 77);
+}
+
+.tripulacao .cargo{
+    color: grey;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.tripulacao .nome{
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.tripulacao .descricao{
+    margin: 20px;
+    margin-bottom: 50px;
+    color: rgb(194, 194, 194);
+}
+
+.none{
+    display:none;
+}
+
+.over{
+    overflow-y: hidden;
+}

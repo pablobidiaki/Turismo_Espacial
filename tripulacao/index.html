@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaquerry.css">
+    <title>Tripulacao</title>
+</head>
+<body>
+    <header>
+        <div id="nav-bar">
+            <a href="../index.html"><img src="../imgs/home/logo.svg" alt=""></a>
+            <img id="burguer" src="../imgs/home/icon-hamburger.svg" onclick="menuBurguer()" alt="">
+            <img id="fechar" class="none" src="../imgs/home/icon-close.svg" onclick="menuBurguer()" alt="">
+
+            <ul class="opcoesRespon">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../destino/index.html">Destinos</a></li>
+                <li><a href="index.html">Tripulação</a></li>
+                <li><a href="#">Tecnologias</a></li>
+            </ul>
+        </div>
+        <div id="opcoes" class="none">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../destino/index.html">Destinos</a></li>
+                <li><a href="index.html">Tripulação</a></li>
+                <li><a href="#">Tecnologias</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div id="tripulante1" class="tripulacao">
+            <p><img src="imgs/image-douglas-hurley.png" alt=""></p>
+            <div class="opcoesTripula">
+                <p onclick="opcao1()" style="background-color: white;"></p>
+                <p onclick="opcao2()"></p>
+                <p onclick="opcao3()"></p>
+                <p onclick="opcao4()"></p>
+            </div>
+            <p class="cargo">Comandante</p>
+            <p class="nome">Douglas Hurley</p>
+            <p class="descricao">Douglas Gerald Hurley é um engenheiro americano, ex-piloto do Corpo de Fuzileiros Navais e ex-astronauta da NASA. Ele se lançou ao espaço pela terceira vez como comandante do Crew Dragon Demo-2.</p>
+        </div>
+
+        <div id="tripulante2" class="tripulacao none">
+            <p><img src="imgs/image-mark-shuttleworth.png" alt=""></p>
+            <div class="opcoesTripula">
+                <p onclick="opcao1()"></p>
+                <p onclick="opcao2()" style="background-color: white;"></p>
+                <p onclick="opcao3()"></p>
+                <p onclick="opcao4()"></p>
+            </div>
+            <p class="cargo">Especialista em missão</p>
+            <p class="nome">Mark Shuttleworth</p>
+            <p class="descricao">Mark Richard Shuttleworth é o fundador e CEO da Canonical, a empresa por trás do sistema operacional Ubuntu baseado em Linux. Shuttleworth se tornou o primeiro sul-africano a viajar para o espaço como turista espacial.</p>
+        </div>
+
+        <div id="tripulante3" class="tripulacao none">
+            <p><img src="imgs/image-victor-glover.png" alt=""></p>
+            <div class="opcoesTripula">
+                <p onclick="opcao1()"></p>
+                <p onclick="opcao2()"></p>
+                <p onclick="opcao3()" style="background-color: white;"></p>
+                <p onclick="opcao4()"></p>
+            </div>
+            <p class="cargo">Piloto</p>
+            <p class="nome">Victor Glover</p>
+            <p class="descricao">Piloto no primeiro voo operacional do SpaceX Crew Dragon para a Estação Espacial Internacional. Glover é um comandante da Marinha dos Estados Unidos, onde pilota um F/A-18. Ele foi membro da tripulação da Expedição 64 e serviu como engenheiro de vôo de sistemas de estação.</p>
+        </div>
+
+        <div id="tripulante4" class="tripulacao none">
+            <p><img src="imgs/image-anousheh-ansari.png" alt=""></p>
+            <div class="opcoesTripula">
+                <p onclick="opcao1()"></p>
+                <p onclick="opcao2()"></p>
+                <p onclick="opcao3()"></p>
+                <p onclick="opcao4()" style="background-color: white;"></p>
+            </div>
+            <p class="cargo">Engenheira de voo</p>
+            <p class="nome">Anousheh Ansari</p>
+            <p class="descricao">Anousheh Ansari é uma engenheira iraniana-americana e cofundadora da Prodea Systems. Ansari foi a quarta turista espacial autofinanciada, a primeira mulher autofinanciada a voar para a ISS e a primeira iraniana no espaço.</p>
+        </div>
+    </main>
+
+    <script src="menuburguer.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

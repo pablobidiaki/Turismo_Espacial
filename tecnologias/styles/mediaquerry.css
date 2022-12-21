@@ -1,0 +1,114 @@
+@media screen and (min-width:641px) and (max-width:1000px){
+    body{
+        background: url('../imgs/background-technology-tablet.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    p{
+        margin:25px;
+        font-size: 1.2rem;
+    }
+
+    #burguer{
+        display:none;
+    }
+
+    .opcoesRespon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color:white;
+        list-style-type: none;
+        border: 1px solid white;
+        backdrop-filter: blur(95px);
+    }
+
+    .opcoesRespon li{
+        margin: 20px;
+    }
+    
+}
+
+@media  screen and (min-width:1001px) {
+    body{
+        background: url('../imgs/background-technology-desktop.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 97vh;
+        width: 100vw;
+    }
+
+    main{
+        margin-top: 2%;
+    }
+
+    #nav-bar{
+        margin-top:1%;
+        margin-right: 0px;
+    }
+
+    #burguer{
+        display: none;
+    }
+
+    .opcoesRespon{
+        display: flex;
+        flex-direction: end;
+        color:white;
+        list-style-type: none;
+        background-color: rgba(66, 66, 66, 0.623);
+    }
+
+    .opcoesRespon li a {
+        text-transform: uppercase;
+    }
+
+    .opcoesRespon li{
+        margin: 20px;
+        margin-right: 100px;
+    }
+
+    .tecnologias .titulo, .tecnologias .subtitulo, .tecnologias .nome, .tecnologias .desc{
+        text-align: justify;
+        margin:10px;
+        width: 100%;
+    }
+
+    .nav-tec p{
+        margin-top: 100px;
+        cursor: pointer;
+    }
+
+    .tecnologias p img{
+        width: 100%;
+        height: 100%;
+        margin: 20px;
+    }
+
+    .imgCelular{
+        display: none;
+    }
+
+    .teste{
+        columns: 2;
+        column-gap: 150px;
+    }
+
+    .nav-tec{
+        display: none;
+    }
+
+    .nav-tecComp, .imgCelular{
+        display: flex;
+    }
+
+    .teste{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

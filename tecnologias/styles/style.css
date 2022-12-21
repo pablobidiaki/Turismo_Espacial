@@ -102,3 +102,7 @@ a{
 .over{
     overflow-y: hidden;
 }
+
+.nav-tecComp, .imgComputador{
+    display: none;
+}

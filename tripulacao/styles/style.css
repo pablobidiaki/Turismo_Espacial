@@ -70,6 +70,12 @@ a{
     background-color: rgb(77, 77, 77);
 }
 
+.tripulacao , .titulo {
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 30px;
+}
+
 .tripulacao .cargo{
     color: grey;
     font-size: 1.2rem;
@@ -88,7 +94,7 @@ a{
     color: rgb(194, 194, 194);
 }
 
-.none{
+.none, .fotoTablet, .opTablet{
     display:none;
 }
 

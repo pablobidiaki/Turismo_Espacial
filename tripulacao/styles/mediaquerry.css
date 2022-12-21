@@ -1,0 +1,122 @@
+@media screen and (min-width:641px) and (max-width:1000px){
+    body{
+        background: url('../imgs/background-crew-tablet.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    p{
+        margin:25px;
+        font-size: 1.2rem;
+    }
+
+    #burguer{
+        display:none;
+    }
+
+    .opcoesRespon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color:white;
+        list-style-type: none;
+        border: 1px solid white;
+        backdrop-filter: blur(95px);
+    }
+
+    .tripulacao .titulo{
+        text-align: justify;
+        font-size: 1.6rem;
+    }
+
+    .opcoesRespon li{
+        margin: 20px;
+    }
+
+    .fotoCelular, .opCelular{
+        display: none;
+    }
+
+    .fotoTablet{
+        display: block;
+    }
+
+    .opTablet{
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1001px){
+    body{
+        background: url('../imgs/background-crew-desktop.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 97%;
+        width: 100%;
+    }
+
+    main{
+        margin-top: 3%;
+    }
+
+    #nav-bar{
+        margin-top:1%;
+        margin-right: 0px;
+    }
+
+    #burguer{
+        display: none;
+    }
+
+    .opcoesRespon{
+        display: flex;
+        flex-direction: end;
+        color:white;
+        list-style-type: none;
+        background-color: rgba(66, 66, 66, 0.623);
+    }
+
+    .opcoesRespon li a {
+        text-transform: uppercase;
+    }
+
+    .opcoesRespon li{
+        margin: 20px;
+        margin-right: 100px;
+    }
+
+    .tripulacao .titulo{
+        text-align: justify;
+        font-size: 2rem;
+        margin: 20px;
+    }
+
+    .tripulacao{
+        columns: 2;
+
+    }
+
+    .tripulacao .nome, .tripulacao .cargo, .tripulacao .descricao{
+        text-align: justify;
+        margin: 20px;
+    }
+
+    .tripulacao p img{
+        width: 50%;
+        height: 40%;
+    }
+
+    .fotoCelular, .opCelular{
+        display: none;
+    }
+
+    .fotoTablet{
+        display: block;
+    }
+
+    .opTablet{
+        display: flex;
+    }
+}

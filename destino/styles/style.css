@@ -97,3 +97,7 @@ a{
 .none{
     display:none;
 }
+
+.over{
+    overflow-y: hidden;
+}

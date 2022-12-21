@@ -88,6 +88,10 @@
         margin-right: 100px;
     }
 
+    .opcoesTripula p{
+        cursor: pointer;
+    }
+
     .tripulacao .titulo{
         text-align: justify;
         font-size: 2rem;
@@ -120,4 +124,5 @@
     .opTablet{
         display: flex;
     }
+    
 }

@@ -58,6 +58,10 @@ a{
     height: 70%;
 }
 
+.destinos h1{
+    padding: 0px 0px 30px 0px;
+}
+
 .destinos ul{
     display: flex;
     flex-direction: row;

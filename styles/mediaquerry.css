@@ -56,7 +56,8 @@
         flex-direction: end;
         color:white;
         list-style-type: none;
-        backdrop-filter: blur(55px);
+        background-color: rgba(66, 66, 66, 0.623);
+        text-transform: uppercase;
     }
 
     .opcoesRespon li{
